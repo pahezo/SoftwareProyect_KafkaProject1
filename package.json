@@ -1,0 +1,19 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "kafka trial",
+  "main": "index.js",
+  "dependencies": {
+    "avsc": "^5.7.6",
+    "bindings": "^1.5.0",
+    "file-uri-to-path": "^1.0.0",
+    "nan": "^2.17.0",
+    "node-rdkafka": "^2.14.0"
+  },
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "author": "Pablo",
+  "license": "ISC"
+}
